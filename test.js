@@ -18,4 +18,4 @@ todo.del('鉛筆を買う');
 assert.deepStrictEqual(todo.list(), []);
 assert.deepStrictEqual(todo.donelist(), []);
 
-console.log('テストが正常に完了しました');
+console.log('テストが正常に完了しまし');
