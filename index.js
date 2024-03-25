@@ -12,7 +12,7 @@ function add(taskName) {
 
 /**
  * タスクの一覧の配列を取得する
- * @return {array}
+ * @returns {string[]}
  */
 function list() {
   return tasks
@@ -33,7 +33,7 @@ function done(taskName) {
 
 /**
  * 完了済みのタスクの一覧の配列を取得する
- * @return {array}
+ * @returns {string[]}
  */
 function donelist() {
   return tasks
