@@ -21,5 +21,3 @@ test('delのテスト', () => {
   assert.deepStrictEqual(todo.list(), []);
   assert.deepStrictEqual(todo.donelist(), []);
 });
-
-console.log('テストが正常に完了しました');
